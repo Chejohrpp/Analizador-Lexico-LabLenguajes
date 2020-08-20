@@ -13,3 +13,18 @@ D:\DocumentosD\VB\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.c
 D:\DocumentosD\VB\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.csproj.CoreCompileInputs.cache
 D:\DocumentosD\VB\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.exe
 D:\DocumentosD\VB\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.pdb
+D:\DocumentosD\Git\Analizador Lexico\Chejohrpp\Analizador-Lexico-LabLenguajes\AnalizadorLexico\AnalizadorLexico\bin\Debug\AnalizadorLexico.exe.config
+D:\DocumentosD\Git\Analizador Lexico\Chejohrpp\Analizador-Lexico-LabLenguajes\AnalizadorLexico\AnalizadorLexico\bin\Debug\AnalizadorLexico.exe
+D:\DocumentosD\Git\Analizador Lexico\Chejohrpp\Analizador-Lexico-LabLenguajes\AnalizadorLexico\AnalizadorLexico\bin\Debug\AnalizadorLexico.pdb
+D:\DocumentosD\Git\Analizador Lexico\Chejohrpp\Analizador-Lexico-LabLenguajes\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.csprojAssemblyReference.cache
+D:\DocumentosD\Git\Analizador Lexico\Chejohrpp\Analizador-Lexico-LabLenguajes\AnalizadorLexico\AnalizadorLexico\obj\Debug\MainWindow.g.cs
+D:\DocumentosD\Git\Analizador Lexico\Chejohrpp\Analizador-Lexico-LabLenguajes\AnalizadorLexico\AnalizadorLexico\obj\Debug\App.g.cs
+D:\DocumentosD\Git\Analizador Lexico\Chejohrpp\Analizador-Lexico-LabLenguajes\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico_MarkupCompile.cache
+D:\DocumentosD\Git\Analizador Lexico\Chejohrpp\Analizador-Lexico-LabLenguajes\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico_MarkupCompile.lref
+D:\DocumentosD\Git\Analizador Lexico\Chejohrpp\Analizador-Lexico-LabLenguajes\AnalizadorLexico\AnalizadorLexico\obj\Debug\MainWindow.baml
+D:\DocumentosD\Git\Analizador Lexico\Chejohrpp\Analizador-Lexico-LabLenguajes\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.g.resources
+D:\DocumentosD\Git\Analizador Lexico\Chejohrpp\Analizador-Lexico-LabLenguajes\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.Properties.Resources.resources
+D:\DocumentosD\Git\Analizador Lexico\Chejohrpp\Analizador-Lexico-LabLenguajes\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.csproj.GenerateResource.cache
+D:\DocumentosD\Git\Analizador Lexico\Chejohrpp\Analizador-Lexico-LabLenguajes\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.csproj.CoreCompileInputs.cache
+D:\DocumentosD\Git\Analizador Lexico\Chejohrpp\Analizador-Lexico-LabLenguajes\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.exe
+D:\DocumentosD\Git\Analizador Lexico\Chejohrpp\Analizador-Lexico-LabLenguajes\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.pdb

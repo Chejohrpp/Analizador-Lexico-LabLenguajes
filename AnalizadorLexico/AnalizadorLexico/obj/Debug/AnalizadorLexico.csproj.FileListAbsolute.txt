@@ -1,0 +1,15 @@
+D:\DocumentosD\VB\AnalizadorLexico\AnalizadorLexico\bin\Debug\AnalizadorLexico.exe.config
+D:\DocumentosD\VB\AnalizadorLexico\AnalizadorLexico\bin\Debug\AnalizadorLexico.exe
+D:\DocumentosD\VB\AnalizadorLexico\AnalizadorLexico\bin\Debug\AnalizadorLexico.pdb
+D:\DocumentosD\VB\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.csprojAssemblyReference.cache
+D:\DocumentosD\VB\AnalizadorLexico\AnalizadorLexico\obj\Debug\MainWindow.g.cs
+D:\DocumentosD\VB\AnalizadorLexico\AnalizadorLexico\obj\Debug\App.g.cs
+D:\DocumentosD\VB\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico_MarkupCompile.cache
+D:\DocumentosD\VB\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico_MarkupCompile.lref
+D:\DocumentosD\VB\AnalizadorLexico\AnalizadorLexico\obj\Debug\MainWindow.baml
+D:\DocumentosD\VB\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.g.resources
+D:\DocumentosD\VB\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.Properties.Resources.resources
+D:\DocumentosD\VB\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.csproj.GenerateResource.cache
+D:\DocumentosD\VB\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.csproj.CoreCompileInputs.cache
+D:\DocumentosD\VB\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.exe
+D:\DocumentosD\VB\AnalizadorLexico\AnalizadorLexico\obj\Debug\AnalizadorLexico.pdb

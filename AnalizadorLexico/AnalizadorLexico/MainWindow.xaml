@@ -14,5 +14,6 @@
         <TextBox x:Name="txtOracion" HorizontalAlignment="Left" Height="23" Margin="176.028,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="369" Grid.Column="1"/>
         <Button x:Name="btnLeer" Content="Ejecutar" HorizontalAlignment="Left" Margin="280.028,116,0,0" VerticalAlignment="Top" Width="133" Click="btnLeer_Click" Grid.Column="1"/>
         <ListBox x:Name="listTokens" HorizontalAlignment="Left" Height="193" Margin="118.028,177,0,0" VerticalAlignment="Top" Width="462" Grid.Column="1"/>
+        <Label Content="Ingrese su cadena" Grid.Column="1" HorizontalAlignment="Left" Margin="299,25,0,0" VerticalAlignment="Top" Width="114"/>
     </Grid>
 </Window>

@@ -30,30 +30,34 @@ namespace AnalizadorLexico
             String oracion = txtOracion.Text;
             int tamOracion = oracion.Length;
             String[] tokens = oracion.Split(' ');
-
+            //verificamos cada palabra
             for (int i=0; i < tokens.Length; i++)
             {
                 int contDigitos = 0;
                 Boolean dec = false;
                 Boolean moneda = false;
 
-               for(int j = 0; j < tokens[i].Length; j++)
-                {     
-                    if (tokens[i].Length > 2)
+                //verificamos si puede ser una moneda
+                if (tokens[i].Length > 2)
+                {
+                    if (tokens[i][0].Equals('Q'))
                     {
-                        if (tokens[i][0].Equals('Q'))
+                        moneda = true;
+                        if (tokens[i][tokens[i].Length - 1].Equals('.'))
                         {
-                            moneda = true;
-                            if(tokens[i][tokens[i].Length - 1].Equals('.'))
-                            {
-                                dec = false;
-                            }
-                            else
-                            {
-                                dec = true;
-                            }
+                            dec = false;
                         }
-                    }                    
+                        else
+                        {
+                            dec = true;
+                        }
+                    }
+                }
+
+                //contamos cuantos digitos tiene la cadena
+                for (int j = 0; j < tokens[i].Length; j++)
+                {     
+                                       
                     if (char.IsNumber(tokens[i][j]))
                     {
                         contDigitos++;
@@ -64,6 +68,8 @@ namespace AnalizadorLexico
                     }
 
                 }
+
+               //agregamos a la palabra su identificador
                if (contDigitos == tokens[i].Length)
                 {
                     tokens[i] += "   ->   Entero";
@@ -82,6 +88,7 @@ namespace AnalizadorLexico
                 }
 
             }
+            //mostramos a la lista los resultados
             listTokens.Items.Clear();
             for (int i = 0; i < tokens.Length; i++)
             {                

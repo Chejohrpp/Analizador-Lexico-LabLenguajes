@@ -24,7 +24,6 @@ namespace AnalizadorLexico
         {
             InitializeComponent();
         }
-
         private void btnLeer_Click(object sender, RoutedEventArgs e)
         {
             String oracion = txtOracion.Text;
@@ -54,7 +53,6 @@ namespace AnalizadorLexico
                         }
                     }
                 }
-
                 //contamos cuantos digitos tiene la cadena
                 for (int j = 0; j < tokens[i].Length; j++)
                 {     
@@ -74,7 +72,6 @@ namespace AnalizadorLexico
 
                     }
                 }
-
                //agregamos a la palabra su identificador
                if (contDigitos == tokens[i].Length)
                 {

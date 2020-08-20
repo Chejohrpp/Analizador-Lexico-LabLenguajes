@@ -78,6 +78,10 @@ namespace AnalizadorLexico
                 {
                     tokens[i] += "   ->   decimal";
                 }
+                else if (moneda && dec && contDigitos == tokens[i].Length - 1)
+                {
+                    tokens[i] += "   ->   moneda";
+                }
                 else if (moneda && dec && contDigitos == tokens[i].Length - 2)
                 {
                     tokens[i] += "   ->   moneda";

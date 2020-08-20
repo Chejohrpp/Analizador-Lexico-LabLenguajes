@@ -28,11 +28,12 @@ namespace AnalizadorLexico
         private void btnLeer_Click(object sender, RoutedEventArgs e)
         {
             String oracion = txtOracion.Text;
-            int tamOracion = oracion.Length;
+            int tamOracion = oracion.Length;            
             String[] tokens = oracion.Split(' ');
             //verificamos cada palabra
             for (int i=0; i < tokens.Length; i++)
             {
+                int contPts = 0;
                 int contDigitos = 0;
                 Boolean dec = false;
                 Boolean moneda = false;
@@ -65,8 +66,13 @@ namespace AnalizadorLexico
                     if (tokens[i][j].Equals('.') && j != (tokens[i].Length-1) && moneda == false)
                     {
                         dec = true;
-                    }
 
+                    }
+                    if (tokens[i][j].Equals('.'))
+                    {
+                        contPts++;
+
+                    }
                 }
 
                //agregamos a la palabra su identificador
@@ -76,13 +82,13 @@ namespace AnalizadorLexico
                 }
                else if (contDigitos == tokens[i].Length-1 && dec && moneda == false)
                 {
-                    tokens[i] += "   ->   Moneda";
+                    tokens[i] += "   ->   Decimal";
                 }
-                else if (moneda && dec && contDigitos == tokens[i].Length - 1)
+                else if (moneda && contDigitos == tokens[i].Length - 1)
                 {
                     tokens[i] += "   ->   Moneda";
                 }
-                else if (moneda && dec && contDigitos == tokens[i].Length - 2)
+                else if (moneda && dec && contDigitos == tokens[i].Length - 2 && contPts == 1)
                 {
                     tokens[i] += "   ->   Moneda";
                 }

@@ -76,19 +76,19 @@ namespace AnalizadorLexico
                 }
                else if (contDigitos == tokens[i].Length-1 && dec && moneda == false)
                 {
-                    tokens[i] += "   ->   decimal";
+                    tokens[i] += "   ->   Moneda";
                 }
                 else if (moneda && dec && contDigitos == tokens[i].Length - 1)
                 {
-                    tokens[i] += "   ->   moneda";
+                    tokens[i] += "   ->   Moneda";
                 }
                 else if (moneda && dec && contDigitos == tokens[i].Length - 2)
                 {
-                    tokens[i] += "   ->   moneda";
+                    tokens[i] += "   ->   Moneda";
                 }
                 else
                 {
-                    tokens[i] += "   ->   Identificador";
+                    tokens[i] += "   ->   Palabra";
                 }
 
             }
